@@ -1,0 +1,41 @@
+.u-drop {
+  width: 600px;
+}
+.u-drop .u-drag > div {
+  width: 100%;
+  display: flex;
+}
+
+.u-drop .u-drag + .u-drag {
+  margin: 10px 0;
+}
+
+.u-drop input {
+  width: 80%;
+  height: 31px;
+  line-height: 31px;
+  margin-left: 10px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.handle {
+  display: inline-block;
+  height: 30px;
+  padding:1px 2px;
+  width: 36px;
+  line-height: 20px;
+  background:#fff;
+  border-radius: 0px 3px 3px 0px;
+  border: 2px solid #fff;
+  border-left:none;
+  cursor: pointer;
+}
+.handle :hover {
+  color:rgba(179, 186, 197, 1);
+
+}
+.uf-navmenu-light {
+  color:rgba(179, 186, 197, 1);
+  font-size: 22px;
+}
